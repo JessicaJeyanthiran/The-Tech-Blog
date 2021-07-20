@@ -1,5 +1,5 @@
 {
-  "name": "The-Tech-Blog",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/JessicaJeyanthiran/The-Tech-Blog.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
