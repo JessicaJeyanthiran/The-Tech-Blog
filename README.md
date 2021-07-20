@@ -1,22 +1,7 @@
 # Tech-Blog
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Description
-A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well.
 
-## Table of Contents
-* [Deployed App](#deployedapp)
-* [Screenshot](#screenshot)
-* [Techologies Used](#technologiesused)
-* [User Story](#userstory)
-* [Acceptance Criteria](#acceptancecriteria)
-* [Contribution](#contribution)
-
-## Deployed App
-https://tech-blog-21.herokuapp.com/
-
-## Screenshot
-<img src="public/images/screeshot.png" width=650 height = 500>
 
 ## Technologies Used
 ### Front-end
@@ -78,7 +63,3 @@ WHEN I am idle on the page for more than a set time
 THEN I am automatically signed out of the site 
 ```
 
-## Contribution
-1. Fork the repo.
-2. Add feature or make changes.
-3. Make a pull request for review.
