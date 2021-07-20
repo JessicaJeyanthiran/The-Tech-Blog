@@ -1,0 +1,23 @@
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+    {{#each posts as |post|}}
+      <article class="post">
+        <div class="title">
+          <h3>{{post.title}}</h3>
+          <p>{{post.content}}</p>
+          <div class="meta created-data">
+          {{user.username}} on {{format_date created_at}}
+        </div>
+        </div>
+        <div class="meta">
+          <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+        </div>
+        <span> <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a> </span> 
+      </article>
+    {{/each}}
+</section>
+{{else}}
+<p>No posts to display</p>
+{{/if}}
+    <a class="new-anchor" href="/dashboard/new"><button class="new-post-btn">New Post</button></a>
