@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #264143;
+    background-color: darkseagreen;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: seagreen;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 400px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    padding: 3px;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 3px solid white ;
+  }
+  
+  .login-form h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  /*Sign-up and Login form containers*/
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    height: 350px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .bg-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  
+  .signup{
+    height: 400px;
+  }
+  
+  form{
+    margin: 20px;
+    font-size: 18px;
+    margin-bottom:10px;
+    margin-top: 10px;
+  }
+  
+  form h1{
+    position: relative;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    margin-bottom: 30px;
+  }
+  
+  .login-email{
+    margin-bottom:10px;
+  }
+  
+  .login-password{
+    margin-bottom:10px;
+    margin-top:20px;
+  }
+  
+  form button{
+    margin: 10px 0;
+  }
+  
+  #signup-header{
+    font-weight:bold;
+    color: black;
+  }
+  
+  .signup-name{
+    margin-bottom: 20px;
+  }
+  
+  .signup-email{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-password{
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover{
+    background-color: green;
+  }
+  
+  #form-content {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  #title-div, #content-div {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  
+  #title-div label, #content-div label {
+    font-size: x-large;
+    padding : 20px;
+  }
+  
+  /* --------------------------------------------------------------------- */
+  
+  .post {
+     border-radius: 8px;
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 2%;
+    line-height: 150%;
+  }
+  
+  .new-anchor {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .new-anchor :hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  section h2 {
+    color: black;
+  }
+  
+  button, .submit-btn {
+    background-color: rgb(57, 85, 69);
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover, .submit-btn:hover {
+    background-color: seagreen ;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .post-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  textarea, input {
+    padding: .5%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #3486eb;
+  }
+  
+  textarea {
+    min-width: 40%;
+    min-height: 100px;
+  }
+  
+  form > div {
+    margin-bottom: 2%;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }  
+    
+  main {
+    flex: 1;
+    padding: 2% 4%;
+  }
+  
+  .delete-post-btn {
+    background-color: #a00b0b;
+  }
+  
+  .delete-post-btn:hover {
+    background-color: #c73737;
+  }
+  
+  .post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #7d7d7d;
+  }
+  
+  /* .edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+  } */
+  
+  
+  .comment-form {
+    margin-bottom: 5%;
+  }
+  
+  .comment {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .comment:nth-child(odd) {
+    background-color: #fff5eb;
+  }
+  
+  .comment .meta, .created-data .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+  }
+  
+  .new-post-form input {
+    width: 300px;
+  }
+  
+  .edit-post-form {
+    margin-bottom: 5%;
+  }
+  
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  #edit-input {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+  }
