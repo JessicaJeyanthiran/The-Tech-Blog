@@ -14,13 +14,13 @@ https://the-tech-blog-jeyanthiran.herokuapp.com/
 
 ## Features/Screenshot
 
-* Sign up, users will have an account 
+* Sign up, users will have an account </br>
 <img src="public/images/techblogss2.JPG" width=400 height = 250> </br>
 
-* Login and have blog posts per user
+* Login and have blog posts per user </br>
 <img src="public/images/techblogss1.JPG" width=400 height = 250> </br>
 
-* Create, edit and comment on blog posts.
+* Create, edit and comment on blog posts. </br>
 <img src="public/images/techblogss.JPG" width=400 height = 250>
 
 
